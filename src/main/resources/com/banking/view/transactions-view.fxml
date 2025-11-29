@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.banking.controller.TransactionController">
+    <TableView fx:id="transactionTable">
+        <columns>
+            <TableColumn fx:id="typeColumn" text="Type" prefWidth="120"/>
+            <TableColumn fx:id="amountColumn" text="Amount" prefWidth="120"/>
+            <TableColumn fx:id="descriptionColumn" text="Description" prefWidth="240"/>
+            <TableColumn fx:id="timestampColumn" text="Timestamp" prefWidth="200"/>
+        </columns>
+    </TableView>
+</VBox>
+

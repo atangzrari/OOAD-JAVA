@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.banking.controller.AccountController">
+    <TableView fx:id="accountTable">
+        <columns>
+            <TableColumn fx:id="numberColumn" text="Account Number" prefWidth="160"/>
+            <TableColumn fx:id="typeColumn" text="Type" prefWidth="120"/>
+            <TableColumn fx:id="balanceColumn" text="Balance" prefWidth="140"/>
+            <TableColumn fx:id="branchColumn" text="Branch" prefWidth="140"/>
+        </columns>
+    </TableView>
+</VBox>
+

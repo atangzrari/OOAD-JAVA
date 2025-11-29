@@ -1,0 +1,206 @@
+/* Modern CSS Styling */
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Modern Text Fields */
+.modern-field {
+    -fx-background-color: #f8f9fa;
+    -fx-background-radius: 5;
+    -fx-border-color: #e9ecef;
+    -fx-border-radius: 5;
+    -fx-padding: 12;
+    -fx-font-size: 14;
+}
+
+.modern-field:focused {
+    -fx-border-color: #667eea;
+    -fx-effect: dropshadow(three-pass-box, rgba(102, 126, 234, 0.3), 5, 0, 0, 0);
+}
+
+/* Buttons */
+.primary-button {
+    -fx-background-color: linear-gradient(to right, #667eea, #764ba2);
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-padding: 12 25;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: linear-gradient(to right, #5a6fd8, #6a4190);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0);
+}
+
+.primary-button:pressed {
+    -fx-background-color: linear-gradient(to right, #4c5bc6, #5c377e);
+}
+
+/* Secondary Button */
+.secondary-button {
+    -fx-background-color: #95a5a6;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #7f8c8d;
+}
+
+/* Menu Buttons */
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bdc3c7;
+    -fx-font-size: 14;
+    -fx-padding: 12 15;
+    -fx-alignment: CENTER_LEFT;
+    -fx-cursor: hand;
+    -fx-border-width: 0;
+}
+
+.menu-button:hover {
+    -fx-background-color: #3c4a5c;
+    -fx-text-fill: white;
+}
+
+.menu-button:selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+/* Logout Button */
+.logout-button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+    -fx-cursor: hand;
+}
+
+.logout-button:hover {
+    -fx-background-color: #c0392b;
+}
+
+/* Cards */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+    -fx-padding: 20;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #e9ecef;
+    -fx-border-radius: 5;
+}
+
+.table-view .column-header {
+    -fx-background-color: #667eea;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: #f8f9fa;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: white;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #667eea;
+    -fx-text-fill: white;
+}
+
+/* Form Labels */
+.form-label {
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+}
+
+/* Success/Error Messages */
+.success-message {
+    -fx-text-fill: #27ae60;
+    -fx-font-size: 12;
+}
+
+.error-message {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 12;
+}
+
+/* Dashboard Stats */
+.stat-card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+    -fx-padding: 20;
+    -fx-alignment: CENTER;
+}
+
+.stat-number {
+    -fx-font-size: 32;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.stat-label {
+    -fx-font-size: 14;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* Customer Dashboard Specific */
+.customer-welcome {
+    -fx-font-size: 16;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+}
+
+.account-card {
+    -fx-background-color: linear-gradient(to right, #3498db, #2980b9);
+    -fx-background-radius: 10;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);
+}
+
+.account-number {
+    -fx-font-size: 18;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.account-balance {
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.account-type {
+    -fx-font-size: 14;
+    -fx-text-fill: rgba(255,255,255,0.8);
+}
+
+/* Transaction type colors */
+.transaction-deposit {
+    -fx-text-fill: #27ae60;
+    -fx-font-weight: bold;
+}
+
+.transaction-withdrawal {
+    -fx-text-fill: #e74c3c;
+    -fx-font-weight: bold;
+}
+
+.transaction-interest {
+    -fx-text-fill: #f39c12;
+    -fx-font-weight: bold;
+}
